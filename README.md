@@ -30,7 +30,7 @@ A Python-based weather agent that demonstrates the integration of multiple APIs 
 1. Clone the repository:
    ```bash
    git clone https://github.com/AndreNeves97/adk-agent-test.git
-   cd multi-tool-agent
+   cd adk-agent-test
    ```
 
 2. Create and activate a virtual environment:
