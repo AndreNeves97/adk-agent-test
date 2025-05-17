@@ -93,6 +93,28 @@ This creates a local server that you can use to test API requests before deploym
 - "What's the temperature in London?"
 - "Calculate the average temperature for [20, 22, 25] degrees"
 
+## 📝 Examples in Action
+
+Here are some real examples of the agent in action:
+
+### Simple Weather Query
+![Simple Weather Query](images/image-1.png)
+*Example of getting weather information for Brasília. The agent first gets the coordinates using the geocoding service, then fetches the weather data using those coordinates.*
+
+### Complex Multi-City Analysis
+![Multi-City Query Part 1](images/image-2.png)
+![Multi-City Query Part 2](images/image-3.png)
+*A more complex example showing how the agent handles multiple cities (Santo André, São Bernardo do Campo, and São Caetano do Sul). It demonstrates:*
+1. Getting coordinates for each city
+2. Fetching weather data for each location
+3. Calculating the average temperature across all cities
+
+These examples showcase the agent's ability to:
+- Chain multiple API calls together
+- Handle complex multi-step queries
+- Process data from multiple sources
+- Perform calculations on the gathered data
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
